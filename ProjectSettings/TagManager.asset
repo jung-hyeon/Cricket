@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Stage1Icon1
+  - Stage1Icon2
+  - Stage1Icon3
+  - Stage1Icon4
+  - Stage1Icon5
+  - Stage1Icon6
+  - Stage1Icon7
+  - Stage1Icon8
+  - Stage1Icon9
   layers:
   - Default
   - TransparentFX

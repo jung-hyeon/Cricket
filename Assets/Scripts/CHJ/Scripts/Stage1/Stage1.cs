@@ -4,20 +4,15 @@ using UnityEngine;
 
 public class Stage1 : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject Stage2PuzzlePopUp;
-    [SerializeField]
-    private GameObject PuzzlePopUp2;
-
-    public void GotoPopup2()
+    // Start is called before the first frame update
+    void Start()
     {
-        PuzzlePopUp2.SetActive(true);
-
+        
     }
-    public void ClickBack()
+
+    // Update is called once per frame
+    void Update()
     {
-        PuzzlePopUp2.SetActive(false);
-
+        
     }
-    
 }

@@ -3,18 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : Singleton<GameManager>
+public class StartScene : MonoBehaviour
 {
-    public int openSceneNumber = 0;
-
-
     public void GoToGameScene()
     {
         SceneManager.LoadScene(1);
-    }
-
-    public void GoToEndScene()
-    {
-        SceneManager.LoadScene(2);
     }
 }

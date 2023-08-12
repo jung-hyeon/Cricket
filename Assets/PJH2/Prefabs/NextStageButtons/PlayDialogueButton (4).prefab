@@ -149,11 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   info:
     sentences:
-    - "\uC548\uB155"
-    - "\uD558\uC138\uC694"
-    - "\uC2A4\uD14C\uC774\uC9C04"
-    - "\uC785\uB2C8\uB2E4."
-  index: 4
+    - "\uD6C8\uB828 \uB178\uD2B8\uB97C \uD655\uC778\uD574 \uBCFC\uAE4C?"
 --- !u!1 &131145417614802394
 GameObject:
   m_ObjectHideFlags: 0

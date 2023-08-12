@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +10,7 @@ public class ClearCheck : MonoBehaviour
     public GameObject[] wordObject;
     public Image[] image;
     int i = 0;
+    bool clear;
 
     private void Update()
     {
@@ -24,18 +27,18 @@ public class ClearCheck : MonoBehaviour
             i++;
         }
         i = 0;
-        Debug.Log(image);
         for (int i = 0; i < image.Length; i++)
         {
+            clear = false;
             if (image[i].color == Color.green)
+            {
                 image[i] = null;
-        }
-        for (int i = 0; i < image.Length; i++)
-        {
-            if (image == null)
+                clear = true;
+                Debug.Log(i);
+                Debug.Log(image.Length);
+            }
+            if (i == image.Length - 1 && clear)
                 Debug.Log("Clear");
-            else
-                Debug.Log("Write");
         }
     }
 }

@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+
+
 public class Stage2PuzzleObj : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
     private bool isDragging = false;
@@ -53,8 +55,9 @@ public class Stage2PuzzleObj : MonoBehaviour, IPointerDownHandler, IPointerUpHan
                 }
             }
         }
-
+        
 
         transform.position = originalPosition; 
     }
+    
 }

@@ -12,9 +12,14 @@ public class PlayerAction : MonoBehaviour
     [SerializeField] private float v;
     [SerializeField] private bool isHorizonMove;
 
+    [SerializeField] private Animator anim;
+    private bool isChange;
+
+
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
     void Update()
     {
@@ -24,17 +29,31 @@ public class PlayerAction : MonoBehaviour
         bool vDown = Input.GetButtonDown("Vertical");
         bool hUp = Input.GetButtonUp("Horizontal");
         bool vUp = Input.GetButtonUp("Vertical");
-        if (hDown)
+
+        if (hDown || vUp)
         {
             isHorizonMove = true;
         }
-        else if (vDown)
+        else if (vDown || hUp)
         {
             isHorizonMove = false;
         }
-        else if (hUp || vUp)
+
+
+        //Animation
+        if (anim.GetInteger("hAxisRaw") != h)
         {
-            isHorizonMove = h != 0;
+            anim.SetBool("isChange", true);
+            anim.SetInteger("hAxisRaw", (int)h);
+        }
+        else if (anim.GetInteger("vAxisRaw") != v)
+        {
+            anim.SetBool("isChange", true);
+            anim.SetInteger("vAxisRaw", (int)v);
+        }
+        else
+        {
+            anim.SetBool("isChange", false);
         }
     }
     private void FixedUpdate()

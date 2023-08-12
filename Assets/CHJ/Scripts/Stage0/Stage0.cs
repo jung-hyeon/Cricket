@@ -41,6 +41,7 @@ public class Stage0 : MonoBehaviour
         StartCoroutine(fadeEffect.FadeInStart());  // 2초 동안 페이드 인
     }
 
+<<<<<<< HEAD
     void Update()
     {
         if (AreAllChildrenInactive(gameObject))
@@ -50,6 +51,9 @@ public class Stage0 : MonoBehaviour
             RobozlePopup1.SetActive(true);
         }
     }
+=======
+
+>>>>>>> origin/main
     public void ClickLock()
     {
         PopUp2.SetActive(true);

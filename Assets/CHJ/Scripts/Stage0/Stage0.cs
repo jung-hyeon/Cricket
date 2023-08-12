@@ -34,7 +34,11 @@ public class Stage0 : MonoBehaviour
 
         PopUp2.SetActive(false);
         PopUp3.SetActive(false);
+
+        Fade fadeEffect = FindObjectOfType<Fade>();
+        StartCoroutine(fadeEffect.FadeInStart());  // 2초 동안 페이드 인
     }
+
 
     public void ClickLock()
     {

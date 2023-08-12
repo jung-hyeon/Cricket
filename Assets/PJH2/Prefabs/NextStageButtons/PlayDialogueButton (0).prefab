@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 1791699410426231652}
   - component: {fileID: 1791699410426231649}
   m_Layer: 5
-  m_Name: PlayDialogueButton
+  m_Name: PlayDialogueButton (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,7 +284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   info:
     sentences:
-    - "\uC548\uB155"
-    - "\uD558\uC138\uC694"
-    - "\uC2A4\uD14C\uC774\uC9C00"
-    - "\uC785\uB2C8\uB2E4."
+    - "\uB098\uB3C4 \uD06C\uB9AC\uCF13 \uC120\uC218\uAC00 \uB420 \uC218 \uC788\uC744\uAE4C?"
+    - "\uD6C8\uB828\uC740 \uC9C0\uB8E8\uD558\uACE0 \uC2E4\uB825\uC740 \uB298\uC9C0
+      \uC54A\uC544"
+    - "\uC774\uB7F0 \uB098\uC5D0\uAC8C \uC870\uC5B8\uD574 \uC904 \uBA58\uD1A0\uAC00
+      \uC788\uC73C\uBA74 \uC88B\uC744 \uD150\uB370"

@@ -170,8 +170,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 5a094aea511dfd74b981c2d92cb72407, type: 2}
   img: {fileID: 12734998}
   inputField: {fileID: 12734997}
-  gameobj: []
-  objImg: []
 --- !u!1001 &29550131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -388,8 +386,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 5a7ab792a00857744ab73637184e2c38, type: 2}
   img: {fileID: 29550135}
   inputField: {fileID: 29550134}
-  gameobj: []
-  objImg: []
 --- !u!1001 &59260570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -606,8 +602,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 2cd5a16f23284ef499536d4295027ea7, type: 2}
   img: {fileID: 59260574}
   inputField: {fileID: 59260573}
-  gameobj: []
-  objImg: []
 --- !u!1001 &108218453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -824,8 +818,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 5a094aea511dfd74b981c2d92cb72407, type: 2}
   img: {fileID: 108218457}
   inputField: {fileID: 108218456}
-  gameobj: []
-  objImg: []
 --- !u!1 &118114600 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2054287440204262897, guid: c5b19ee8499fd4a45905641699232923, type: 3}
@@ -851,8 +843,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: e44652967b59e4f469638152ecde98e2, type: 2}
   img: {fileID: 118114604}
   inputField: {fileID: 118114603}
-  gameobj: []
-  objImg: []
 --- !u!114 &118114603 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2470238681151925592, guid: c5b19ee8499fd4a45905641699232923, type: 3}
@@ -1252,8 +1242,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: c800360e903fe414c82ddea48de63f86, type: 2}
   img: {fileID: 206807670}
   inputField: {fileID: 206807669}
-  gameobj: []
-  objImg: []
 --- !u!1 &213710354 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2054287440204262897, guid: c5b19ee8499fd4a45905641699232923, type: 3}
@@ -1301,8 +1289,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 27a09236a33b7e140983d7e96ace3e88, type: 2}
   img: {fileID: 213710357}
   inputField: {fileID: 213710356}
-  gameobj: []
-  objImg: []
 --- !u!1001 &232448538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1519,8 +1505,118 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 4cb48c12c31851440b59f522151321f5, type: 2}
   img: {fileID: 232448542}
   inputField: {fileID: 232448541}
-  gameobj: []
-  objImg: []
+--- !u!1 &247983862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 247983864}
+  - component: {fileID: 247983863}
+  m_Layer: 0
+  m_Name: ColorCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &247983863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247983862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0473cd9b3fb4b1643973f9c8ffc58d71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wordObject:
+  - {fileID: 118114600}
+  - {fileID: 213710354}
+  - {fileID: 1602185358}
+  - {fileID: 12734995}
+  - {fileID: 1607866314}
+  - {fileID: 1217390592}
+  - {fileID: 108218455}
+  - {fileID: 459380816}
+  - {fileID: 458027223}
+  - {fileID: 2076978741}
+  - {fileID: 1302992061}
+  - {fileID: 1134065318}
+  - {fileID: 778682672}
+  - {fileID: 1657443168}
+  - {fileID: 1107924652}
+  - {fileID: 2066906773}
+  - {fileID: 1741956064}
+  - {fileID: 1907466407}
+  - {fileID: 1599311837}
+  - {fileID: 782654350}
+  - {fileID: 29550133}
+  - {fileID: 1452214398}
+  - {fileID: 2035669271}
+  - {fileID: 1331978711}
+  - {fileID: 232448540}
+  - {fileID: 206807668}
+  - {fileID: 758343324}
+  - {fileID: 59260572}
+  - {fileID: 696586669}
+  - {fileID: 1053024352}
+  - {fileID: 1803074990}
+  - {fileID: 1439694110}
+  - {fileID: 2087544732}
+  image:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!4 &247983864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247983862}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -420.02917, y: -25.041199, z: -0.76361734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 552352186}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &258148347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,8 +1917,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 63d0ea51e56d28e478b737a9873ac5c8, type: 2}
   img: {fileID: 458027225}
   inputField: {fileID: 458027224}
-  gameobj: []
-  objImg: []
 --- !u!1001 &459380814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2039,8 +2133,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 736a1eede9c1bd44e92b4750a7d4e7ba, type: 2}
   img: {fileID: 459380818}
   inputField: {fileID: 459380817}
-  gameobj: []
-  objImg: []
 --- !u!1 &483676958
 GameObject:
   m_ObjectHideFlags: 0
@@ -2208,6 +2300,7 @@ RectTransform:
   - {fileID: 2010551732}
   - {fileID: 1625477642}
   - {fileID: 483676959}
+  - {fileID: 247983864}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2432,8 +2525,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 9f0b9c6edc338c04bb740d0973836b5a, type: 2}
   img: {fileID: 696586671}
   inputField: {fileID: 696586670}
-  gameobj: []
-  objImg: []
 --- !u!1001 &758343322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2650,8 +2741,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: fe8c4c4c3516b074e99a43a15ab964dd, type: 2}
   img: {fileID: 758343326}
   inputField: {fileID: 758343325}
-  gameobj: []
-  objImg: []
 --- !u!1001 &778682670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2868,8 +2957,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: c8310aea5c695e7408c75662a043fd20, type: 2}
   img: {fileID: 778682674}
   inputField: {fileID: 778682673}
-  gameobj: []
-  objImg: []
 --- !u!1001 &782654348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3086,8 +3173,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: fd4e4acf10a4841469849541840ee8d6, type: 2}
   img: {fileID: 782654352}
   inputField: {fileID: 782654351}
-  gameobj: []
-  objImg: []
 --- !u!1 &876545907
 GameObject:
   m_ObjectHideFlags: 0
@@ -3534,8 +3619,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: bc91527d440232e4393004c7e82c6e83, type: 2}
   img: {fileID: 1053024354}
   inputField: {fileID: 1053024353}
-  gameobj: []
-  objImg: []
 --- !u!1001 &1107924650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3752,8 +3835,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: a0e9439aa20aae847a850470d9b61ad2, type: 2}
   img: {fileID: 1107924654}
   inputField: {fileID: 1107924653}
-  gameobj: []
-  objImg: []
 --- !u!1001 &1134065316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3970,8 +4051,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 38c9afc43a3cdbf40bcf8d465f6d653d, type: 2}
   img: {fileID: 1134065320}
   inputField: {fileID: 1134065319}
-  gameobj: []
-  objImg: []
 --- !u!1001 &1210027991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4349,8 +4428,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 4b0ffd935df029b41879c52c6cd18ffc, type: 2}
   img: {fileID: 1217390594}
   inputField: {fileID: 1217390593}
-  gameobj: []
-  objImg: []
 --- !u!1001 &1302992059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4567,8 +4644,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: a0e9439aa20aae847a850470d9b61ad2, type: 2}
   img: {fileID: 1302992063}
   inputField: {fileID: 1302992062}
-  gameobj: []
-  objImg: []
 --- !u!1001 &1331978709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4785,8 +4860,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 0f2144a2b7b350444b2d808091a20b52, type: 2}
   img: {fileID: 1331978713}
   inputField: {fileID: 1331978712}
-  gameobj: []
-  objImg: []
 --- !u!1 &1435084862
 GameObject:
   m_ObjectHideFlags: 0
@@ -5072,8 +5145,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 8adbfa5abff8e4c4ebb59a9aae1b9a6c, type: 2}
   img: {fileID: 1439694112}
   inputField: {fileID: 1439694111}
-  gameobj: []
-  objImg: []
 --- !u!1001 &1452214396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5290,8 +5361,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: e0e4e3953e8df8341b90b0e4e7a57bc9, type: 2}
   img: {fileID: 1452214400}
   inputField: {fileID: 1452214399}
-  gameobj: []
-  objImg: []
 --- !u!1001 &1599311835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5508,8 +5577,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: ad6a4ae6bfaaef54787288521bcf5b72, type: 2}
   img: {fileID: 1599311839}
   inputField: {fileID: 1599311838}
-  gameobj: []
-  objImg: []
 --- !u!1 &1602185358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2054287440204262897, guid: c5b19ee8499fd4a45905641699232923, type: 3}
@@ -5557,8 +5624,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 0e712df81a27590488e082dfba11fc19, type: 2}
   img: {fileID: 1602185361}
   inputField: {fileID: 1602185360}
-  gameobj: []
-  objImg: []
 --- !u!1 &1607866314 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2054287440204262897, guid: c5b19ee8499fd4a45905641699232923, type: 3}
@@ -5606,8 +5671,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 09d75c5ae14823c40b076462d4776c48, type: 2}
   img: {fileID: 1607866317}
   inputField: {fileID: 1607866316}
-  gameobj: []
-  objImg: []
 --- !u!1 &1625477641
 GameObject:
   m_ObjectHideFlags: 0
@@ -5865,8 +5928,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 631b06c1ec5653448a2bbfac6b68bd90, type: 2}
   img: {fileID: 1657443170}
   inputField: {fileID: 1657443169}
-  gameobj: []
-  objImg: []
 --- !u!1001 &1721352432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6244,8 +6305,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 57420280b17532d4ba497836d0cea2ec, type: 2}
   img: {fileID: 1741956066}
   inputField: {fileID: 1741956065}
-  gameobj: []
-  objImg: []
 --- !u!1001 &1803074988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6462,8 +6521,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: da84b39da6fdad04bb2e3e8b70ed10f4, type: 2}
   img: {fileID: 1803074992}
   inputField: {fileID: 1803074991}
-  gameobj: []
-  objImg: []
 --- !u!1 &1811634940
 GameObject:
   m_ObjectHideFlags: 0
@@ -6787,8 +6844,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: c03a844d5c3a5a748a700f7fc67fcaec, type: 2}
   img: {fileID: 1907466409}
   inputField: {fileID: 1907466408}
-  gameobj: []
-  objImg: []
 --- !u!1 &2010551731
 GameObject:
   m_ObjectHideFlags: 0
@@ -6830,7 +6885,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 115}
+  m_AnchoredPosition: {x: 290, y: 115}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2010551733
@@ -7075,8 +7130,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: c85b24357ecbfc941be5c6c3e685f619, type: 2}
   img: {fileID: 2035669273}
   inputField: {fileID: 2035669272}
-  gameobj: []
-  objImg: []
 --- !u!1001 &2066906771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7290,11 +7343,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7e438b8f5a5a7d49b66dffab9234cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  word: {fileID: 11400000, guid: c8310aea5c695e7408c75662a043fd20, type: 2}
+  word: {fileID: 11400000, guid: d50d89d0827ebed4698746851fb3d858, type: 2}
   img: {fileID: 2066906775}
   inputField: {fileID: 2066906774}
-  gameobj: []
-  objImg: []
 --- !u!1001 &2076978739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7511,8 +7562,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 631b06c1ec5653448a2bbfac6b68bd90, type: 2}
   img: {fileID: 2076978743}
   inputField: {fileID: 2076978742}
-  gameobj: []
-  objImg: []
 --- !u!1001 &2087544730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7729,8 +7778,6 @@ MonoBehaviour:
   word: {fileID: 11400000, guid: 38c9afc43a3cdbf40bcf8d465f6d653d, type: 2}
   img: {fileID: 2087544734}
   inputField: {fileID: 2087544733}
-  gameobj: []
-  objImg: []
 --- !u!1001 &8702078392048436150
 PrefabInstance:
   m_ObjectHideFlags: 0

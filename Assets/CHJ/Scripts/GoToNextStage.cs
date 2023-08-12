@@ -11,10 +11,7 @@ public class GoToNextStage : MonoBehaviour
     private GameObject Stage1;
     [SerializeField]
     private GameObject Stage2;
-    [SerializeField]
-    private GameObject Stage3;
-    [SerializeField]
-    private GameObject Stage4;
+
 
     [SerializeField]
     private GameObject goToNextStageBtn;
@@ -30,30 +27,27 @@ public class GoToNextStage : MonoBehaviour
             Stage0.SetActive(false);
             Stage1.SetActive(true);
             GameManager.instance.openSceneNumber++;
-
+            StartCoroutine(Fade.instance.FadeInStart());
         }
         else if (GameManager.instance.openSceneNumber == 1)
         {
             Stage1.SetActive(false);
             Stage2.SetActive(true);
             GameManager.instance.openSceneNumber++;
+            StartCoroutine(Fade.instance.FadeInStart());
         }
-        else if(GameManager.instance.openSceneNumber == 2)
+
+        else if (GameManager.instance.openSceneNumber == 2)
         {
-            Stage2.SetActive(false);
-            Stage3.SetActive(true);
-            GameManager.instance.openSceneNumber++;
-        }
-        else if(GameManager.instance.openSceneNumber == 3)
-        {
-            Stage3.SetActive(false);
-            Stage4.SetActive(true);
-            GameManager.instance.openSceneNumber++;
-        }
-        else if (GameManager.instance.openSceneNumber == 4)
-        {
+            StartCoroutine(Fade.instance.FadeInStart());
             SceneManager.LoadScene("EndScene");
+
         }
+    }
+
+    public void GotoEnd()
+    {
+       
     }
     // 스테이지를 클리어 하는 오브젝트를 획득했을 때
     // 다음 스테이지로 가는 버튼이 활성화 되는 함수

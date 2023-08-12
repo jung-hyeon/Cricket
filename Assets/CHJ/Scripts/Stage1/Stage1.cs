@@ -35,6 +35,18 @@ public class Stage1 : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDr
         Stage1PuzzlePopUp.SetActive(false);
 
     }
+
+    void Awake()
+    {
+        GameManager.instance.openSceneNumber = 0;
+
+        Stage1PuzzlePopUp.SetActive(false);
+        PuzzlePopUp2.SetActive(false);
+
+        
+    }
+
+
     private void Start()
     {
         originalPosition = transform.position;

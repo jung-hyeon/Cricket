@@ -14,6 +14,7 @@ TagManager:
   - Stage1Icon8
   - Stage1Icon9
   - Stage1IconX
+  - Object
   layers:
   - Default
   - TransparentFX

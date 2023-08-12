@@ -25,7 +25,9 @@ public class Stage0 : MonoBehaviour
     private GameObject PopUp2;
     [SerializeField]
     private GameObject PopUp3;
-    
+
+    [SerializeField] private GameObject RobozlePopup1;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -34,12 +36,36 @@ public class Stage0 : MonoBehaviour
 
         PopUp2.SetActive(false);
         PopUp3.SetActive(false);
+
+        Fade fadeEffect = FindObjectOfType<Fade>();
+        StartCoroutine(fadeEffect.FadeInStart());  // 2초 동안 페이드 인
     }
 
+    void Update()
+    {
+        if (AreAllChildrenInactive(gameObject))
+        {
+            // 모든 자식이 비활성화되었을 때의 작업
+            // 예: 다른 게임 오브젝트 호출
+            RobozlePopup1.SetActive(true);
+        }
+    }
     public void ClickLock()
     {
         PopUp2.SetActive(true);
     }
+
+    bool AreAllChildrenInactive(GameObject parent)
+    {
+        foreach (Transform child in parent.transform)
+        {
+            if (child.gameObject.activeInHierarchy)
+                return false;
+        }
+        return true;
+    }
+
+
 
     public void CheckAnswers()
     {
@@ -62,4 +88,7 @@ public class Stage0 : MonoBehaviour
         PuzzlePopUp1.SetActive(false);
      
     }
+
+
+
 }

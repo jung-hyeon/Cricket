@@ -9,13 +9,21 @@ public class Stage2 : MonoBehaviour
     [SerializeField]
     private GameObject PuzzlePopUp2;
 
+
+
+
     void Awake()
     {
-        GameManager.instance.openSceneNumber = 0;
 
-        Stage2PuzzlePopUp.SetActive(false);
-        PuzzlePopUp2.SetActive(false);
+        /*
+        Stage2PuzzlePopUp.SetActive(true);
+        PuzzlePopUp2.SetActive(false);*/
 
+    }
+
+    void OnEnable()
+    {
+        
     }
     public void GotoPopup2()
     {

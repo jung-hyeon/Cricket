@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16b8e2038b2d01846bdfa013b3f5f37e, type: 3}
   m_Name: Stage0Object4
   m_EditorClassIdentifier: 
-  itemName: Stage0Object4
-  itemImage: {fileID: 21300000, guid: bc4130b5b7e17514a8075870557818ad, type: 3}
+  itemName: Stage1Object4
+  itemImage: {fileID: 21300000, guid: c7060695df51c554c92c1cb7bc292167, type: 3}

@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class CheckInventory : MonoBehaviour
+public class CheckInventory2 : MonoBehaviour
 {
-    [SerializeField] private 
-     GameObject GotoNext;
+    [SerializeField]
+    private GameObject GotoNext;
     void Update()
     {
         if (AreAllChildrenInactive(gameObject))
@@ -24,5 +23,4 @@ public class CheckInventory : MonoBehaviour
         }
         return true;
     }
-
 }

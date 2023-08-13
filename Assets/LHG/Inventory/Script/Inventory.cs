@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Inventory : MonoBehaviour
+public class Inventory : Singleton<Inventory>
 {
     public List<Item> items;
+    public Image reset;
 
     [SerializeField] Transform slotParent;
     [SerializeField] Slot[] slots;
@@ -41,9 +43,11 @@ public class Inventory : MonoBehaviour
             print("ΩΩ∑‘¿Ã ∞°µÊ¬¸");
         }
     }
-    private void OnDisable()
+    public void ResetItem()
     {
-        items = null;
+        items.RemoveRange(0,4);
+        //Slot.image.sprite = null;
+        //Slot.image = null;
     }
 }
 public interface IObjectItem

@@ -303,7 +303,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1852915918415223862
 RectTransform:
   m_ObjectHideFlags: 0
@@ -557,9 +557,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1852915918415223862}
     m_Modifications:
+    - target: {fileID: 7673090680766045049, guid: 780a2198cc222314b8178219f584c657, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7673090680766045050, guid: 780a2198cc222314b8178219f584c657, type: 3}
       propertyPath: m_Name
       value: PlayDialogueButton (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673090680766045050, guid: 780a2198cc222314b8178219f584c657, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7673090680766045051, guid: 780a2198cc222314b8178219f584c657, type: 3}
       propertyPath: m_Pivot.x
@@ -659,6 +667,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1852915918415223862}
     m_Modifications:
+    - target: {fileID: 6443985360613265472, guid: 71d871ebe69db594eb7f38c18edd0389, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6443985360613265474, guid: 71d871ebe69db594eb7f38c18edd0389, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -747,6 +759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayDialogueButton (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6443985360613265475, guid: 71d871ebe69db594eb7f38c18edd0389, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71d871ebe69db594eb7f38c18edd0389, type: 3}
 --- !u!224 &5229448515308490111 stripped
@@ -761,6 +777,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1852915918415223862}
     m_Modifications:
+    - target: {fileID: 6260237415824813592, guid: 9b04eae663d829e4cb8c669841a095f6, type: 3}
+      propertyPath: info.sentences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260237415824813592, guid: 9b04eae663d829e4cb8c669841a095f6, type: 3}
+      propertyPath: info.sentences.Array.data[3]
+      value: "\uC624\uB298\uC740 \uC5B4\uC81C\uC640 \uB2E4\uB978 \uACF3\uC774\uB124"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260237415824813592, guid: 9b04eae663d829e4cb8c669841a095f6, type: 3}
+      propertyPath: info.sentences.Array.data[4]
+      value: "\uBC29 \uC548\uC744 \uB458\uB7EC\uBCF4\uB2C8 \uCF58\uC2A4\uD0C4\uD2F4\uC774
+        \uC0DD\uC804\uC5D0 \uC9C0\uB0B4\uB358 \uACF3 \uAC19\uC544."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260237415824813592, guid: 9b04eae663d829e4cb8c669841a095f6, type: 3}
+      propertyPath: info.sentences.Array.data[5]
+      value: "\uC774\uACF3\uC5D0\uC11C\uB3C4 \uD6C8\uB828 \uC77C\uC9C0\uB97C \uCC3E\uC744
+        \uC218 \uC788\uC744\uAE4C?"
+      objectReference: {fileID: 0}
     - target: {fileID: 6260237415824813593, guid: 9b04eae663d829e4cb8c669841a095f6, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -845,9 +879,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6260237415824813595, guid: 9b04eae663d829e4cb8c669841a095f6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6260237415824813598, guid: 9b04eae663d829e4cb8c669841a095f6, type: 3}
       propertyPath: m_Name
       value: PlayDialogueButton (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260237415824813598, guid: 9b04eae663d829e4cb8c669841a095f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b04eae663d829e4cb8c669841a095f6, type: 3}
@@ -863,6 +905,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1852915918415223862}
     m_Modifications:
+    - target: {fileID: 1791699410426231649, guid: 90cf6b1f90b8cae41a21b4703264867d, type: 3}
+      propertyPath: info.sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791699410426231649, guid: 90cf6b1f90b8cae41a21b4703264867d, type: 3}
+      propertyPath: info.sentences.Array.data[3]
+      value: "\uC5EC\uAE30\uAC00 \uC5B4\uB514\uC9C0?"
+      objectReference: {fileID: 0}
     - target: {fileID: 1791699410426231658, guid: 90cf6b1f90b8cae41a21b4703264867d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -950,6 +1000,10 @@ PrefabInstance:
     - target: {fileID: 1791699410426231659, guid: 90cf6b1f90b8cae41a21b4703264867d, type: 3}
       propertyPath: m_Name
       value: PlayDialogueButton (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791699410426231659, guid: 90cf6b1f90b8cae41a21b4703264867d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90cf6b1f90b8cae41a21b4703264867d, type: 3}
@@ -1053,6 +1107,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayDialogueButton (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4347912362970428349, guid: a1f0ae1bd32b662468b46703164bdea7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347912362970428350, guid: a1f0ae1bd32b662468b46703164bdea7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1f0ae1bd32b662468b46703164bdea7, type: 3}
 --- !u!224 &763133097960146069 stripped
@@ -1154,6 +1216,18 @@ PrefabInstance:
     - target: {fileID: 4430120845718537803, guid: 6834c8d17a9551141a684adb2714f8e2, type: 3}
       propertyPath: m_Name
       value: PlayDialogueButton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430120845718537803, guid: 6834c8d17a9551141a684adb2714f8e2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430120845718537812, guid: 6834c8d17a9551141a684adb2714f8e2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430120845718537812, guid: 6834c8d17a9551141a684adb2714f8e2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6834c8d17a9551141a684adb2714f8e2, type: 3}
@@ -1257,6 +1331,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayDialogueButton (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8355458424728258885, guid: f2302b7efce596344945458750c7517d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355458424728258886, guid: f2302b7efce596344945458750c7517d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355458424728258887, guid: f2302b7efce596344945458750c7517d, type: 3}
+      propertyPath: info.sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355458424728258887, guid: f2302b7efce596344945458750c7517d, type: 3}
+      propertyPath: info.sentences.Array.data[0]
+      value: "\uBC8C\uC368 \uB9C8\uC9C0\uB9C9 \uD6C8\uB828 \uB178\uD2B8\uB77C\uB2C8
+        \uBBFF\uAE30\uC9C0 \uC54A\uC544"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355458424728258887, guid: f2302b7efce596344945458750c7517d, type: 3}
+      propertyPath: info.sentences.Array.data[1]
+      value: "\uC544\uC9C1 \uB098\uB294 \uB3C4\uC6C0\uC774 \uB354 \uD544\uC694\uD560
+        \uAC83 \uAC19\uC740\uB370"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355458424728258887, guid: f2302b7efce596344945458750c7517d, type: 3}
+      propertyPath: info.sentences.Array.data[2]
+      value: "\uD6C8\uB828\uC77C\uC9C0\uC5D0 \uC758\uC874\uD558\uC9C0 \uC54A\uACE0
+        \uB098 \uC2A4\uC2A4\uB85C\uB3C4 \uD6CC\uB96D\uD55C \uD06C\uB9AC\uCF13\uC120\uC218\uAC00
+        \uB418\uB3C4\uB85D \uB178\uB825\uD558\uACA0\uC5B4."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355458424728258887, guid: f2302b7efce596344945458750c7517d, type: 3}
+      propertyPath: info.sentences.Array.data[3]
+      value: "\uADF8\uB3D9\uC548 \uC815\uB9D0 \uAC10\uC0AC\uD588\uC2B5\uB2C8\uB2E4.
+        \uCF58\uC2A4\uD0C4\uD2F4\uACBD."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355458424728258887, guid: f2302b7efce596344945458750c7517d, type: 3}
+      propertyPath: info.sentences.Array.data[4]
+      value: end.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2302b7efce596344945458750c7517d, type: 3}
 --- !u!224 &3341880213709214802 stripped
@@ -1271,6 +1382,23 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1852915918415223862}
     m_Modifications:
+    - target: {fileID: 6191563844113762329, guid: 5bf31ee8801fa3847ad85779b411dbb4, type: 3}
+      propertyPath: info.sentences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6191563844113762329, guid: 5bf31ee8801fa3847ad85779b411dbb4, type: 3}
+      propertyPath: info.sentences.Array.data[3]
+      value: "\uC5B4\uC81C \uBD24\uB358 \uCF58\uC2A4\uD0C4\uD2F4\uC758 \uBC29 \uC548\uC774\uC57C."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6191563844113762329, guid: 5bf31ee8801fa3847ad85779b411dbb4, type: 3}
+      propertyPath: info.sentences.Array.data[4]
+      value: "\uC5B4\uC81C\uC640 \uB2E4\uB974\uAC8C \uBB38\uC5D0 \uAC78\uB824\uC788\uB358
+        \uC790\uBB3C\uC1E0\uAC00 \uC0AC\uB77C\uC84C\uC5B4."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6191563844113762329, guid: 5bf31ee8801fa3847ad85779b411dbb4, type: 3}
+      propertyPath: info.sentences.Array.data[5]
+      value: "\uBB38\uC744 \uC5F4\uACE0 \uBC16\uC73C\uB85C \uB098\uAC00 \uBCFC\uAE4C?"
+      objectReference: {fileID: 0}
     - target: {fileID: 6191563844113762330, guid: 5bf31ee8801fa3847ad85779b411dbb4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1359,6 +1487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayDialogueButton (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6191563844113762331, guid: 5bf31ee8801fa3847ad85779b411dbb4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bf31ee8801fa3847ad85779b411dbb4, type: 3}
 --- !u!224 &765493225037195005 stripped
@@ -1373,9 +1505,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1852915918415223862}
     m_Modifications:
+    - target: {fileID: 131145415505641065, guid: 643429297776d044f9dfa3ed5b08023c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 131145415505641066, guid: 643429297776d044f9dfa3ed5b08023c, type: 3}
       propertyPath: m_Name
       value: PlayDialogueButton (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131145415505641066, guid: 643429297776d044f9dfa3ed5b08023c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 131145415505641067, guid: 643429297776d044f9dfa3ed5b08023c, type: 3}
       propertyPath: m_Pivot.x
@@ -1475,9 +1615,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1852915918415223862}
     m_Modifications:
+    - target: {fileID: 6123694566181259345, guid: fdb3ea6a32330c640ac8bd508f84caba, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6123694566181259356, guid: fdb3ea6a32330c640ac8bd508f84caba, type: 3}
       propertyPath: m_Name
       value: PlayDialogueButton (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6123694566181259356, guid: fdb3ea6a32330c640ac8bd508f84caba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6123694566181259358, guid: fdb3ea6a32330c640ac8bd508f84caba, type: 3}
+      propertyPath: info.sentences.Array.data[0]
+      value: "\uC624\uB298\uC740 \uC5B4\uC81C\uC640 \uB2E4\uB978 \uACF3\uC774\uB124"
       objectReference: {fileID: 0}
     - target: {fileID: 6123694566181259359, guid: fdb3ea6a32330c640ac8bd508f84caba, type: 3}
       propertyPath: m_Pivot.x

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Stage0Object1
   m_EditorClassIdentifier: 
   itemName: Stage0Object1
-  itemImage: {fileID: 21300000, guid: c9b4f11adb30f8949ac7251f39d7eebe, type: 3}
+  itemImage: {fileID: 21300000, guid: 15b00a868164d6249a06919c8d45bb68, type: 3}

@@ -21,6 +21,7 @@ public class Stage1 : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDr
     private GameObject PuzzlePopUp2;
     [SerializeField]
     private GameObject GoBtn;
+
     public void SetTrueButton()
     {
         GoBtn.SetActive(true);
@@ -35,14 +36,16 @@ public class Stage1 : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDr
         Stage1PuzzlePopUp.SetActive(false);
 
     }
+    public void ClickBack2()
+    {
+        Stage1PuzzlePopUp.SetActive(false);
+
+    }
 
     void Awake()
     {
-        GameManager.instance.openSceneNumber = 0;
-
-        Stage1PuzzlePopUp.SetActive(false);
+        Stage1PuzzlePopUp.SetActive(true);
         PuzzlePopUp2.SetActive(false);
-
         
     }
 

@@ -10,6 +10,8 @@ public class GameManager : Singleton<GameManager>
     public bool ClearStage1;
     public bool ClearStage2;
 
+    
+
 
     public void GoToGameScene()
     {

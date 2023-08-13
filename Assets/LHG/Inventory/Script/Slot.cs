@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class Slot : MonoBehaviour
 {
-    [SerializeField] Image image;
+    public Image image;
 
+    public static bool remove;
     private Item _item;
     public Item item
     {
@@ -21,6 +22,15 @@ public class Slot : MonoBehaviour
             { 
                 image.color = new Color(1, 1, 1, 0);
             }
+        }
+    }
+
+    void Update()
+    {
+        if (remove)
+        {
+            image.sprite = null;
+            //image = null;
         }
     }
 }

@@ -28,6 +28,9 @@ public class Stage0 : MonoBehaviour
 
     [SerializeField] private GameObject RobozlePopup1;
 
+    [SerializeField] private Button PlayDialogueButton0;
+    [SerializeField] private Button PlayDialogueButton1;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -39,6 +42,9 @@ public class Stage0 : MonoBehaviour
 
         Fade fadeEffect = FindObjectOfType<Fade>();
         StartCoroutine(fadeEffect.FadeInStart());  // 2초 동안 페이드 인
+
+        PlayDialogueButton0.onClick.Invoke(); //0번째 다이얼로그 시작
+        StartCoroutine(fadeEffect.FadeOutStart());
     }
 
     void Update()
@@ -49,6 +55,7 @@ public class Stage0 : MonoBehaviour
             // 예: 다른 게임 오브젝트 호출
             RobozlePopup1.SetActive(true);
         }
+
     }
 
     public void ClickLock()

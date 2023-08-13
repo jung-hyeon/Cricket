@@ -10,9 +10,11 @@ public class DialogueSystem : MonoBehaviour
     public Canvas canvas;
 
     Queue<string> sentences = new Queue<string>();
+    Dialogue info;
 
     public void Begin(Dialogue info)
     {
+        this.info = info;
         canvas.transform.gameObject.SetActive(true);
         sentences.Clear();
 
@@ -41,5 +43,6 @@ public class DialogueSystem : MonoBehaviour
         textSentence.text = string.Empty;
         canvas.transform.gameObject.SetActive(false);
         // 스테이지 종료하고 창닫기
+
     }
 }

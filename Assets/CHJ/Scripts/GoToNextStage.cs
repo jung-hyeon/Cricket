@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GoToNextStage : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class GoToNextStage : MonoBehaviour
     [SerializeField]
     private GameObject goToNextStageBtn;
 
+    [SerializeField] private Button PlayDialogueButton2;
+    [SerializeField] private Button PlayDialogueButton5;
 
 
 
@@ -28,6 +31,9 @@ public class GoToNextStage : MonoBehaviour
             Stage1.SetActive(true);
             GameManager.instance.openSceneNumber++;
             StartCoroutine(Fade.instance.FadeInStart());
+
+            PlayDialogueButton2.onClick.Invoke(); // 2번째 dialogue
+
         }
         else if (GameManager.instance.openSceneNumber == 1)
         {
@@ -35,6 +41,8 @@ public class GoToNextStage : MonoBehaviour
             Stage2.SetActive(true);
             GameManager.instance.openSceneNumber++;
             StartCoroutine(Fade.instance.FadeInStart());
+
+            PlayDialogueButton5.onClick.Invoke(); // 5번째 dialogue
         }
 
         else if (GameManager.instance.openSceneNumber == 2)

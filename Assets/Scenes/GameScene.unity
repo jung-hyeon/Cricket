@@ -134,6 +134,74 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &117739500
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1084.3633
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 483.29352
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.034773
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727044480230245298, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9080325640800119340, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+      propertyPath: m_Name
+      value: DialogueButtons
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+--- !u!114 &117739501 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7451553585327087334, guid: d5408d0406fada840abbabfaefb39a78, type: 3}
+  m_PrefabInstance: {fileID: 117739500}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &132719205
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,6 +658,8 @@ MonoBehaviour:
   PopUp2: {fileID: 485427627}
   PopUp3: {fileID: 538351258}
   RobozlePopup1: {fileID: 910189756}
+  PlayDialogueButton0: {fileID: 117739501}
+  PlayDialogueButton1: {fileID: 0}
 --- !u!1 &321656405
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,6 +2793,8 @@ MonoBehaviour:
   Stage1: {fileID: 1259912994}
   Stage2: {fileID: 459540096}
   goToNextStageBtn: {fileID: 825892681}
+  PlayDialogueButton2: {fileID: 0}
+  PlayDialogueButton5: {fileID: 0}
 --- !u!114 &1403702996
 MonoBehaviour:
   m_ObjectHideFlags: 0
